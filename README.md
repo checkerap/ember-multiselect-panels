@@ -1,4 +1,4 @@
-# Ember-two-panels-multiselect
+# Ember Two Panels Multiselect
 
 Work in progress for a two panels multi-select
 
