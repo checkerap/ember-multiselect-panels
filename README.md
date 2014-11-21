@@ -1,6 +1,8 @@
 # Ember-two-panels-multiselect
 
-This README outlines the details of collaborating on this Ember addon.
+Work in progress for a two panels multi-select
+
+![Two Panels Multiselect](preview.png?raw=true "Two Panels Multiselect")
 
 ## Installation
 
