@@ -49,14 +49,14 @@ export default Em.Component.extend({
 		},
 
 		selectAll: function() {
-			var records = this.get('filteredRecords');
+			var records = this.get('sortedContent');
 			records.forEach(function(r) {
 				r.set('selected', true);
 			});
 		},
 
 		unselectAll: function() {
-			var records = this.get('filteredRecords');
+			var records = this.get('selectedRecords');
 			records.forEach(function(r) {
 				r.set('selected', false);
 			});

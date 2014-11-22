@@ -1,0 +1,48 @@
+.tip {
+  color: #869ea2;
+  font-style: italic;
+  margin-bottom: 5px;
+}
+
+.multiselect-panels {
+  margin-bottom: 15px;
+}
+
+.multiselect-panels-button {
+  font-size: 13px;
+  line-height: 20px;
+  padding: 0 7px;
+  text-transform: lowercase;
+  border-radius: 10px;
+  color: #fff;
+  background: none repeat scroll 0 0 #75a6ff;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.multiselect-panels-column {
+  box-sizing: border-box;
+  width: 50%;
+  float: left;
+  min-height: 1px;
+  padding-right: 15px;
+  position: relative;
+}
+
+.multiselect-panels-options {
+  height: 140px;
+  margin-top: 5px;
+  overflow: auto;
+}
+
+.multiselect-panels-item {
+  cursor: pointer;
+  border-bottom: 1px solid #d2d2d2;
+  padding: 2px 5px;
+  display: block;
+}
+
+.multiselect-panels-item:hover {
+  background: #75a6ff;
+  color: #fff;
+}
