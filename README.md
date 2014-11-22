@@ -1,8 +1,10 @@
 # Ember CLI Multiselect Panels
 
-Work in progress for a two panels multi-select component
+A two panels multi-select component.
 
 ![Two Panels Multiselect](preview.png?raw=true "Two Panels Multiselect")
+
+Use code and inspired by Nico Gevers' addon [Ember Multiselect](https://github.com/gevious/ember-multiselect "Ember-multiselect").
 
 ## Basic Usage
 
