@@ -1,0 +1,25 @@
+<h2>Static multiselect</h2>
+<div>
+  {{multiselect-panels content=myList label="Movies" selected=favouriteMovies sortProperty="name"}}
+</div>
+<div>
+  <h2>Favourite Movies</h2>
+  <ul>
+  {{#each favouriteMovies}}
+    <li>{{name}}</li>
+  {{/each}}
+  </ul>
+</div>
+
+<h2>Promise multiselect</h2>
+<div>
+  {{multiselect-panels content=myPromiseList label="Characters" selected=favouriteCharacters sortProperty="name"}}
+</div>
+<div>
+  <h2>Favourite Characters</h2>
+  <ul>
+  {{#each favouriteCharacters}}
+    <li>{{name}}</li>
+  {{/each}}
+  </ul>
+</div>

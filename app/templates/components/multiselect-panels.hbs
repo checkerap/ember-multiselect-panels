@@ -1,0 +1,24 @@
+<div class="row multi-select mt">
+	<div class="col col-lg-12"><label>{{label}}</label></div>
+
+	<div class="col col-lg-12 tip">Click on each item to select</div>
+
+	<div class="col col-lg-6">
+		<a {{action "selectAll"}} class="btn-lkn-s rca bg-b txt-w">Select All</a>
+		<div class="ms-block rcs brd-g rca-s">
+			{{#each item in sortedContent}}
+				<a {{action "addItem" item on="click"}} class="item-select brd-b-g blk">{{item.name}}</a>
+			{{/each}}
+		</div>
+	</div>
+
+	<div class="col col-lg-6">
+		<a {{action "unselectAll"}} class="btn-lkn-s rca bg-b txt-w">Deselect All</a>
+		<div class="ms-block rca brd-g rca-s">
+			{{#each item in selected}}
+				<a {{action "removeItem" item on="click"}} class="item-select brd-b-g blk">{{item.name}}</a>
+			{{/each}}
+		</div>
+	</div>
+
+</div>

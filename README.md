@@ -1,8 +1,15 @@
-# Ember Two Panels Multiselect
+# Ember CLI Multiselect Panels
 
-Work in progress for a two panels multi-select
+Work in progress for a two panels multi-select component
 
 ![Two Panels Multiselect](preview.png?raw=true "Two Panels Multiselect")
+
+## Basic Usage
+
+    {{multiselect-panels content=myList label="Favourite Movies" selected=favouriteMovies}}
+
+## Demo
+Check out the demo on [github pages](http://checkerap.github.io/ember-multiselect-panels/ "Ember Multiselect Demo").
 
 ## Installation
 
