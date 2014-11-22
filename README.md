@@ -4,7 +4,7 @@ A two panels multi-select component.
 
 ![Two Panels Multiselect](preview.png?raw=true "Two Panels Multiselect")
 
-Use code and inspired by Nico Gevers' addon [Ember Multiselect](https://github.com/gevious/ember-multiselect "Ember-multiselect").
+Used code and inspired by Nico Gevers' addon [Ember Multiselect](https://github.com/gevious/ember-multiselect "Ember-multiselect").
 
 ## Basic Usage
 
